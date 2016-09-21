@@ -1,0 +1,7 @@
+all: EasyServer
+
+EasyServer: EasyServer.o jsoncpp.o
+	g++ -o EasyServer EasyServer.o jsoncpp.o -lzmq -lmysqlclient
+
+EasyServer.o: EasyServer.cpp
+	g++ -c EasyServer.cpp

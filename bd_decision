@@ -1,0 +1,8 @@
+ CREATE TABLE `Decision` (
+  `decision_id` int(10) NOT NULL AUTO_INCREMENT,
+  `decision_text` varchar(300) NOT NULL,
+  `decision_aprior` float(10), 
+ `decision_json` varchar(1000),
+`decision_num` int(10),
+  PRIMARY KEY (`decision_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 

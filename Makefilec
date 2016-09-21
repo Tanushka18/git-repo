@@ -1,0 +1,7 @@
+all: Client
+
+Client: Client.o jsoncpp.o
+	g++ -o Client Client.o jsoncpp.o -lzmq 
+
+Client.o: Client.cpp
+	g++ -c Client.cpp

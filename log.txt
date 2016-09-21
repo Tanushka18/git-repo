@@ -1,0 +1,450 @@
+2016/05/11 12:21:20 Service run...
+2016/05/11 12:21:26 ~~ Get message ~~ :
+2016/05/11 12:21:26 {
+   "jsonrpc" : "2.0",
+   "method" : "start_session"
+}
+
+2016/05/11 12:21:26 ~~ Send message ~~:
+2016/05/11 12:21:26 {"id":0,"jsonrpc":"2.0","result":{"session_id":219}}
+
+2016/05/11 12:21:26 ~~ Get message ~~ :
+2016/05/11 12:21:26 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:26 ~~ Send message ~~:
+2016/05/11 12:21:26 {"id":0,"jsonrpc":"2.0","result":{"quest_id":2,"quest_text":"Этот персонаж мужского пола?","session_id":219}}
+
+2016/05/11 12:21:27 ~~ Get message ~~ :
+2016/05/11 12:21:27 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 1,
+      "quest_id" : 2,
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:27 ~~ Send message ~~:
+2016/05/11 12:21:27 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":219}}
+
+2016/05/11 12:21:27 ~~ Get message ~~ :
+2016/05/11 12:21:27 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:27 ~~ Send message ~~:
+2016/05/11 12:21:27 {"id":0,"jsonrpc":"2.0","result":{"quest_id":3,"quest_text":"Это человек?","session_id":219}}
+
+2016/05/11 12:21:30 ~~ Get message ~~ :
+2016/05/11 12:21:30 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 1,
+      "quest_id" : 3,
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:30 ~~ Send message ~~:
+2016/05/11 12:21:30 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":219}}
+
+2016/05/11 12:21:30 ~~ Get message ~~ :
+2016/05/11 12:21:30 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:30 ~~ Send message ~~:
+2016/05/11 12:21:30 {"id":0,"jsonrpc":"2.0","result":{"quest_id":5,"quest_text":"Это политик?","session_id":219}}
+
+2016/05/11 12:21:31 ~~ Get message ~~ :
+2016/05/11 12:21:31 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 1,
+      "quest_id" : 5,
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:31 ~~ Send message ~~:
+2016/05/11 12:21:31 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":219}}
+
+2016/05/11 12:21:31 ~~ Get message ~~ :
+2016/05/11 12:21:31 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:31 ~~ Send message ~~:
+2016/05/11 12:21:31 {"id":0,"jsonrpc":"2.0","result":{"quest_id":14,"quest_text":"Ваш персонаж носит костюм?","session_id":219}}
+
+2016/05/11 12:21:32 ~~ Get message ~~ :
+2016/05/11 12:21:32 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 1,
+      "quest_id" : 14,
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:32 ~~ Send message ~~:
+2016/05/11 12:21:32 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":219}}
+
+2016/05/11 12:21:32 ~~ Get message ~~ :
+2016/05/11 12:21:32 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:32 ~~ Send message ~~:
+2016/05/11 12:21:32 {"id":0,"jsonrpc":"2.0","result":{"quest_id":1,"quest_text":"Это вымышленный персонаж?","session_id":219}}
+
+2016/05/11 12:21:34 ~~ Get message ~~ :
+2016/05/11 12:21:34 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : -1,
+      "quest_id" : 1,
+      "session_id" : 219
+   }
+}
+
+2016/05/11 12:21:34 ~~ Send message ~~:
+2016/05/11 12:21:34 {"id":0,"jsonrpc":"2.0","result":{"decision_id":1,"decision_text":"В.В.Путин","session_id":219,"session_state":"find"}}
+
+2016/05/11 12:23:10 ~~ Get message ~~ :
+2016/05/11 12:23:10 {
+   "jsonrpc" : "2.0",
+   "method" : "start_session"
+}
+
+2016/05/11 12:23:10 ~~ Send message ~~:
+2016/05/11 12:23:10 {"id":0,"jsonrpc":"2.0","result":{"session_id":220}}
+
+2016/05/11 12:23:10 ~~ Get message ~~ :
+2016/05/11 12:23:10 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:10 ~~ Send message ~~:
+2016/05/11 12:23:10 {"id":0,"jsonrpc":"2.0","result":{"quest_id":2,"quest_text":"Этот персонаж мужского пола?","session_id":220}}
+
+2016/05/11 12:23:20 ~~ Get message ~~ :
+2016/05/11 12:23:20 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 2,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:20 ~~ Send message ~~:
+2016/05/11 12:23:20 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:20 ~~ Get message ~~ :
+2016/05/11 12:23:20 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:20 ~~ Send message ~~:
+2016/05/11 12:23:20 {"id":0,"jsonrpc":"2.0","result":{"quest_id":3,"quest_text":"Это человек?","session_id":220}}
+
+2016/05/11 12:23:21 ~~ Get message ~~ :
+2016/05/11 12:23:21 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 3,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:21 ~~ Send message ~~:
+2016/05/11 12:23:21 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:21 ~~ Get message ~~ :
+2016/05/11 12:23:21 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:21 ~~ Send message ~~:
+2016/05/11 12:23:21 {"id":0,"jsonrpc":"2.0","result":{"quest_id":5,"quest_text":"Это политик?","session_id":220}}
+
+2016/05/11 12:23:21 ~~ Get message ~~ :
+2016/05/11 12:23:21 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 5,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:21 ~~ Send message ~~:
+2016/05/11 12:23:21 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:21 ~~ Get message ~~ :
+2016/05/11 12:23:21 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:21 ~~ Send message ~~:
+2016/05/11 12:23:21 {"id":0,"jsonrpc":"2.0","result":{"quest_id":14,"quest_text":"Ваш персонаж носит костюм?","session_id":220}}
+
+2016/05/11 12:23:22 ~~ Get message ~~ :
+2016/05/11 12:23:22 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 14,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:22 ~~ Send message ~~:
+2016/05/11 12:23:22 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:22 ~~ Get message ~~ :
+2016/05/11 12:23:22 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:22 ~~ Send message ~~:
+2016/05/11 12:23:22 {"id":0,"jsonrpc":"2.0","result":{"quest_id":1,"quest_text":"Это вымышленный персонаж?","session_id":220}}
+
+2016/05/11 12:23:22 ~~ Get message ~~ :
+2016/05/11 12:23:22 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 1,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:22 ~~ Send message ~~:
+2016/05/11 12:23:22 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:22 ~~ Get message ~~ :
+2016/05/11 12:23:22 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:22 ~~ Send message ~~:
+2016/05/11 12:23:22 {"id":0,"jsonrpc":"2.0","result":{"quest_id":8,"quest_text":"Он является литературным персонажем?","session_id":220}}
+
+2016/05/11 12:23:23 ~~ Get message ~~ :
+2016/05/11 12:23:23 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 8,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:23 ~~ Send message ~~:
+2016/05/11 12:23:23 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:23 ~~ Get message ~~ :
+2016/05/11 12:23:23 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:23 ~~ Send message ~~:
+2016/05/11 12:23:23 {"id":0,"jsonrpc":"2.0","result":{"quest_id":4,"quest_text":"Этот персонаж - животное?","session_id":220}}
+
+2016/05/11 12:23:24 ~~ Get message ~~ :
+2016/05/11 12:23:24 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 4,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:24 ~~ Send message ~~:
+2016/05/11 12:23:24 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:24 ~~ Get message ~~ :
+2016/05/11 12:23:24 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:24 ~~ Send message ~~:
+2016/05/11 12:23:24 {"id":0,"jsonrpc":"2.0","result":{"quest_id":7,"quest_text":"Этот персонаж - певец?","session_id":220}}
+
+2016/05/11 12:23:25 ~~ Get message ~~ :
+2016/05/11 12:23:25 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 7,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:25 ~~ Send message ~~:
+2016/05/11 12:23:25 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:25 ~~ Get message ~~ :
+2016/05/11 12:23:25 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:25 ~~ Send message ~~:
+2016/05/11 12:23:25 {"id":0,"jsonrpc":"2.0","result":{"quest_id":11,"quest_text":"Ваш персонаж не большого размера?","session_id":220}}
+
+2016/05/11 12:23:26 ~~ Get message ~~ :
+2016/05/11 12:23:26 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 11,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:26 ~~ Send message ~~:
+2016/05/11 12:23:26 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:26 ~~ Get message ~~ :
+2016/05/11 12:23:26 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:26 ~~ Send message ~~:
+2016/05/11 12:23:26 {"id":0,"jsonrpc":"2.0","result":{"quest_id":10,"quest_text":"Вас персонаж супергерой?","session_id":220}}
+
+2016/05/11 12:23:26 ~~ Get message ~~ :
+2016/05/11 12:23:26 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 10,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:26 ~~ Send message ~~:
+2016/05/11 12:23:26 {"id":0,"jsonrpc":"2.0","result":{"sesion_state":"next","session_id":220}}
+
+2016/05/11 12:23:26 ~~ Get message ~~ :
+2016/05/11 12:23:26 {
+   "jsonrpc" : "2.0",
+   "method" : "next_quest",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:26 ~~ Send message ~~:
+2016/05/11 12:23:26 {"id":0,"jsonrpc":"2.0","result":{"quest_id":12,"quest_text":"У вашего персонажа есть хвост?","session_id":220}}
+
+2016/05/11 12:23:27 ~~ Get message ~~ :
+2016/05/11 12:23:27 {
+   "jsonrpc" : "2.0",
+   "method" : "send_answer",
+   "params" : {
+      "answer_id" : 0,
+      "quest_id" : 12,
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:27 Error : -32001 : Decision not found
+2016/05/11 12:23:27 ~~ Send message ~~:
+2016/05/11 12:23:27 {"error":{"code":-32001,"message":"Decision not found"},"id":0,"jsonrpc":"2.0"}
+
+2016/05/11 12:23:27 ~~ Get message ~~ :
+2016/05/11 12:23:27 {
+   "jsonrpc" : "2.0",
+   "method" : "get_session",
+   "params" : {
+      "session_id" : 220
+   }
+}
+
+2016/05/11 12:23:27 ~~ Send message ~~:
+2016/05/11 12:23:27 {"id":0,"jsonrpc":"2.0","result":[{"Answers":0,"Questions":"Это вымышленный персонаж?"},{"Answers":0,"Questions":"Вас персонаж супергерой?"},{"Answers":0,"Questions":"Ваш персонаж не большого размера?"},{"Answers":0,"Questions":"У вашего персонажа есть хвост?"},{"Answers":0,"Questions":"Ваш персонаж носит костюм?"},{"Answers":0,"Questions":"Этот персонаж мужского пола?"},{"Answers":0,"Questions":"Это человек?"},{"Answers":0,"Questions":"Этот персонаж - животное?"},{"Answers":0,"Questions":"Это политик?"},{"Answers":0,"Questions":"Этот персонаж - певец?"},{"Answers":0,"Questions":"Он является литературным персонажем?"}]}
+
+2016/09/14 21:08:56 Service run...
+2016/09/14 21:10:48 Service run...
